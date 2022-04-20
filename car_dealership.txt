@@ -1,0 +1,32 @@
+building a car dealership using object orientation
+-------------------
+different classes 
+
+dealership(main),employees,vehicles,customers,finance
+
+vehicles of 2 kinds - 2 wheelers and 4 wheelers
+
+customer(will have private attribtes and use getters and setters)-purchase car by reaching out to an employee
+
+employee - handle customer,credit history(loan amount),process transcation
+
+vehicle-getprice,setprice
+2wheelers-get model,get make basically toString
+4wheelers-get model,get make basically toString
+finance-to keep track of all the loans given out 
+
+application case- to build an car dealership management software to handle customers
+ 
+features-
+customer details store, handling customers, loaning (financing), purchase of vehicle
+
+we will be storing customer details in private variables to ensure encapsualtion 
+
+we will also be string vehicle detais in private so they cant be altered.
+
+2wheeler and 4 wheeler class will be derived from vehicles class
+
+customer will be able to chose an employee to work with based on his rating
+and many employees will be made available.
+
+loans can also be provided to customers if needed and this details will be stored in another class object called finance
